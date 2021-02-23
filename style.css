@@ -19,6 +19,11 @@
     }
     
     .redmi-note-9-pro__single-section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -28,6 +33,10 @@
     .redmi-note-9-pro__regural-image {
         width: 100%;
         height: auto;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
     }
     
     .redmi-note-9-pro__regular-section {
@@ -65,28 +74,19 @@
         list-style-type: none;
     }
     
-    .redmi-note-9-pro__text-on-pic-section {
+    .redmi-note-9-pro__double-pic-section {
         width: 100%;
-        height: 500px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: #fff !important;
-        box-sizing: border-box;
-        padding: 90px;
-        margin: 0;
-        background-image: url("assets//redmi-note-9-pro__single-section-performance-pic.svg");
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .redmi-note-9-pro__double-pic-section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
         box-sizing: border-box;
         padding: 0;
         padding-top: 15px;
         margin: 0;
+        font-size: 0;
     }
     
     .redmi-note-9-pro__double-pic-item {
