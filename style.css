@@ -34,7 +34,7 @@
     .redmi-note-9-pro__regural-image {
         width: 100%;
         height: auto;
-        object-fit: contain;
+        object-fit: cover;
         object-position: center;
     }
     
