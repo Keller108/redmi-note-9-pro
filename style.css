@@ -159,6 +159,15 @@
     }
     
     @media (max-width: 480px) {
+        .redmi-note-9-pro__section-title {
+            font-size: 20px;
+        }
+        .redmi-note-9-pro__section-subtitle {
+            font-size: 18px;
+        }
+        .redmi-note-9-pro__section-text {
+            font-size: 15px;
+        }
         .redmi-note-9-pro__header-section {
             padding: 30px;
         }
