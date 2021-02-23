@@ -136,12 +136,6 @@
         margin-bottom: 20px;
     }
     
-    @media (max-width: 680px) {
-        .redmi-note-9-pro__header-section {
-            padding: 30px;
-        }
-    }
-    
     @media (max-width: 480px) {
         .redmi-note-9-pro__section-title {
             font-size: 20px;
