@@ -13,12 +13,14 @@
     
     .details__content-wrap {
         max-width: 800px;
+        width: 100%;
         margin: 0 auto;
         padding-bottom: 75px;
         overflow: hidden;
     }
     
     .redmi-note-9-pro__single-section {
+        width: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -28,6 +30,7 @@
         padding: 0;
         box-sizing: border-box;
         font-size: 0;
+        width: 100%;
     }
     
     .redmi-note-9-pro__regural-image {
@@ -121,12 +124,6 @@
         padding: 0;
         margin: 0;
         margin-bottom: 20px;
-    }
-    
-    @media (max-width: 540px) {
-        .redmi-note-9-pro__regural-image {
-            width: 80%;
-        }
     }
     
     @media (max-width: 480px) {
