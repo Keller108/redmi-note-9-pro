@@ -20,11 +20,6 @@
     }
     
     .redmi-note-9-pro__single-section {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -34,8 +29,6 @@
     .redmi-note-9-pro__regural-image {
         width: 100%;
         height: auto;
-        object-fit: cover;
-        object-position: center;
     }
     
     .redmi-note-9-pro__regular-section {
@@ -91,11 +84,6 @@
     }
     
     .redmi-note-9-pro__double-pic-section {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         box-sizing: border-box;
         padding: 0;
         padding-top: 15px;
