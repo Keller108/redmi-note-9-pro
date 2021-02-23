@@ -137,22 +137,6 @@
     }
     
     @media (max-width: 680px) {
-        .redmi-note-9__header-section {
-            padding: 30px;
-        }
-        .redmi-note-9__double-column-section {
-            flex-direction: column;
-        }
-        .redmi-note-9__double-column-text-wrapper {
-            padding-right: 90px;
-            width: 100%;
-        }
-        .redmi-note-9__double-column-image-wrapper {
-            width: 100%;
-        }
-    }
-    
-    @media (max-width: 680px) {
         .redmi-note-9-pro__header-section {
             padding: 30px;
         }
